@@ -7,7 +7,7 @@ const PlayerContextProvider = (props) => {
     const audioRef = useRef(null);
     const seekBg = useRef(null);
     const seekBar = useRef(null);
-    const url = 'http://localhost:4000';
+    const url = 'https://spotify-uhre.onrender.com';
 
     const [songsData, setSongsData] = useState([]);
     const [albumsData, setAlbumsData] = useState([]);
